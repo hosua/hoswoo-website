@@ -39,10 +39,7 @@ const ThemeButton = () => {
   const dispatch = useDispatch();
   const { darkMode } = useSelector((state) => state);
   return (
-    <button
-      style={{ backgroundColor: "transparent", border: "none" }}
-      onClick={() => dispatch(toggleDarkMode())}
-    >
+    <button className="theme-button" onClick={() => dispatch(toggleDarkMode())}>
       {darkMode ? <LightSvg /> : <DarkSvg />}
     </button>
   );

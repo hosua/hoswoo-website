@@ -3,6 +3,8 @@ import { useSelector } from "react-redux";
 import HoswooNavbar from "@components/HoswooNavbar";
 import HoswooRoutes from "./HoswooRoutes";
 
+import "./App.css";
+
 function App() {
   const { darkMode } = useSelector((state) => state);
 

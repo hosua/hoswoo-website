@@ -24,7 +24,7 @@ const HoswooNavbar = () => {
               Shermie Invaders
             </NavDropdown.Item>
           </NavDropdown>
-          <ThemeButton style={{ float: "left" }} />
+          <ThemeButton />
         </Nav>
       </Navbar.Collapse>
     </Navbar>
