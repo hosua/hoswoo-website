@@ -61,11 +61,6 @@
   margin: 0;
 }
 
-.project-title button {
-  position: absolute;
-  right: 0;
-}
-
 .source-code-btn {
   background-color: transparent;
   border-radius: 50px;
