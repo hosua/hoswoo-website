@@ -1,4 +1,5 @@
 import tetricVideo from "/videos/tetric.mp4";
+import tetripyVideo from "/videos/tetripy.mp4";
 import Video from "@components/Video";
 import { Card } from "react-bootstrap";
 import ProjectPage from "@components/ProjectPage";
@@ -40,7 +41,9 @@ const ProjectTetris = () => {
           </div>
           .
         </Card.Text>
-        <Video style={{ width: "50% !important" }} src={tetricVideo} />
+        <div style={{ maxWidth: "1000px", margin: "auto" }}>
+          <Video src={tetricVideo} />
+        </div>
       </>
     );
   };
@@ -48,7 +51,35 @@ const ProjectTetris = () => {
   const tetripyBody = () => {
     return (
       <>
-        <Card.Text>TO DO</Card.Text>
+        <Card.Text>
+          TetriPy is a version of Tetris that I wrote in Python3 using pygame.
+          This version is probably the most polished version I created, aside
+          from the fact that it lacks sound.
+        </Card.Text>
+        <Card.Text>
+          TetriPy features fluid controls, a next piece queue, Tetronimo
+          statistics counter, the ability to hold pieces, scoring, and a
+          leveling system.
+        </Card.Text>
+        <Card.Text>
+          Similar to TetriC, the user can start TetriPy on a higher level by
+          passing the level as a command line argument.
+        </Card.Text>
+        <Card.Text>
+          For example, to start on level 10{" "}
+          <div style={{ maxWidth: "200px", display: "inline-block" }}>
+            <CodeBlock
+              text={"python3 main.py 10"}
+              language={"bash"}
+              theme={dracula}
+              showLineNumbers={false}
+            />
+          </div>
+          .
+        </Card.Text>
+        <div style={{ maxWidth: "800px", margin: "auto" }}>
+          <Video src={tetripyVideo} />
+        </div>
       </>
     );
   };
