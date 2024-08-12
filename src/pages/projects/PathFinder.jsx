@@ -70,7 +70,13 @@ const ProjectPathFinder = () => {
     );
   };
 
-  return <ProjectPage title="SDL2 Pathfinder" body={body()} />;
+  return (
+    <ProjectPage
+      title={"SDL2 Pathfinder"}
+      body={body()}
+      srcUrl={"https://github.com/hosua/sdl2-pathfinder"}
+    />
+  );
 };
 
 export default ProjectPathFinder;
