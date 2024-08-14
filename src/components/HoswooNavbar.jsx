@@ -14,11 +14,14 @@ const HoswooNavbar = () => {
               SDL2 Path Finder
             </NavDropdown.Item>
             <NavDropdown.Item href="/projects/tetris">Tetris</NavDropdown.Item>
-            <NavDropdown.Item href="/projects/chip-8-emulator">
-              CHIP-8 Emulator
+            <NavDropdown.Item href="/projects/snake-plus-plus">
+              Snake++
             </NavDropdown.Item>
             <NavDropdown.Item href="/projects/flappy-bird">
               FlapPy Bird
+            </NavDropdown.Item>
+            <NavDropdown.Item href="/projects/chip-8-emulator">
+              CHIP-8 Emulator
             </NavDropdown.Item>
             <NavDropdown.Item href="/projects/shermie-invaders">
               Shermie Invaders

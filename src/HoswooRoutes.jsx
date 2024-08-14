@@ -5,6 +5,7 @@ import ProjectTetris from "@pages/projects/Tetris";
 import ProjectChip8Emulator from "@pages/projects/Chip8Emulator";
 import ProjectFlappyBird from "@pages/projects/FlappyBird";
 import ProjectShermieInvaders from "@pages/projects/ShermieInvaders";
+import ProjectSnakePlusPlus from "@pages/projects/SnakePlusPlus";
 
 const HoswooRoutes = () => {
   return (
@@ -20,6 +21,10 @@ const HoswooRoutes = () => {
       <Route
         path="/projects/shermie-invaders"
         element={<ProjectShermieInvaders />}
+      />
+      <Route
+        path="/projects/snake-plus-plus"
+        element={<ProjectSnakePlusPlus />}
       />
     </Routes>
   );
