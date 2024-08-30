@@ -26,7 +26,7 @@ const imgStyle = {
 
 const imgWrapper = {
   width: "100%",
-  height: "80vh",
+  height: "90vh",
   overflow: "hidden",
   borderRadius: "10px",
 };

@@ -8,22 +8,25 @@
   filter: none !important;
 }
 
-.carousel-caption > span {
-  color: #fff !important;
-  background-color: rgba(0, 0, 0, 0.5);
-}
-
-/* These aren't working */
-/* Override carousel indicators for light mode */
-body[data-bs-theme="dark"] .carousel-indicators li {
+/* Style for the carousel indicators (bottom bar) */
+.carousel-indicators > button {
   background-color: rgba(
-    255,
-    255,
-    255,
-    0.5
+    186,
+    207,
+    224,
+    1.25
   ) !important; /* Inactive indicators color */
+  border-radius: 25%; /* Make indicators round */
+  border: none; /* Remove border */
 }
 
-body[data-bs-theme="dark"] .carousel-indicators .active {
-  background-color: #000 !important; /* Active indicator color */
+/* Style for the active indicator */
+.carousel-indicators .active {
+  background-color: #000; /* Active indicator color */
+}
+
+/* Ensure the indicators are visible above the image */
+.carousel-indicators {
+  z-index: 2; /* Make sure the indicators are above images */
+  bottom: 10px; /* Adjust this value to move the indicators bar up or down */
 }
