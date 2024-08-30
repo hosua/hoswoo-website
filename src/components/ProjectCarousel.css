@@ -1,0 +1,29 @@
+/* ProjectCarousel.css */
+
+.carousel-control-prev-icon {
+  filter: none !important;
+}
+
+.carousel-control-next-icon {
+  filter: none !important;
+}
+
+.carousel-caption > span {
+  color: #fff !important;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+/* These aren't working */
+/* Override carousel indicators for light mode */
+body[data-bs-theme="dark"] .carousel-indicators li {
+  background-color: rgba(
+    255,
+    255,
+    255,
+    0.5
+  ) !important; /* Inactive indicators color */
+}
+
+body[data-bs-theme="dark"] .carousel-indicators .active {
+  background-color: #000 !important; /* Active indicator color */
+}

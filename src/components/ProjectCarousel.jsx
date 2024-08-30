@@ -1,9 +1,11 @@
 import { Carousel, Container } from "react-bootstrap";
 import { LinkContainer } from "react-router-bootstrap";
 
+import "./ProjectCarousel.css";
+
 const bannerStyle = {
   color: "white",
-  background: "rgba(25,25,25,0.5)",
+  background: "rgba(25,25,25,0.75)",
   borderRadius: "10px",
   width: "50%",
   position: "absolute",
@@ -15,13 +17,6 @@ const bannerStyle = {
   padding: "20px",
 };
 
-const imgWrapperStyle = {
-  width: "100%",
-  height: "400px", // Set a fixed height here
-  overflow: "hidden",
-  borderRadius: "10px",
-};
-
 const imgStyle = {
   width: "100%", // Ensure it fills the carousel item
   height: "80vh", // Fixed height for consistency
@@ -29,13 +24,20 @@ const imgStyle = {
   borderRadius: "10px",
 };
 
+const imgWrapper = {
+  width: "100%",
+  height: "80vh",
+  overflow: "hidden",
+  borderRadius: "10px",
+};
+
 const ProjectCarousel = () => {
   return (
-    <Container style={{ borderRadius: "10px", backgroundColor: "lightgrey" }}>
+    <Container style={{ borderRadius: "10px", backgroundColor: "#353b45" }}>
       <Carousel interval={5000}>
         <Carousel.Item>
           <LinkContainer to="/projects/path-finder">
-            <div style={imgWrapperStyle}>
+            <div style={imgWrapper}>
               <img src="images/SDL2-pathfinder.png" style={imgStyle} />
             </div>
           </LinkContainer>
@@ -46,7 +48,7 @@ const ProjectCarousel = () => {
         </Carousel.Item>
         <Carousel.Item>
           <LinkContainer to="/projects/tetris">
-            <div style={imgWrapperStyle}>
+            <div style={imgWrapper}>
               <img src="images/TetriPy.png" style={imgStyle} />
             </div>
           </LinkContainer>
@@ -60,7 +62,7 @@ const ProjectCarousel = () => {
         </Carousel.Item>
         <Carousel.Item>
           <LinkContainer to="/projects/snake-plus-plus">
-            <div style={imgWrapperStyle}>
+            <div style={imgWrapper}>
               <img src="images/Snake++.png" style={imgStyle} />
             </div>
           </LinkContainer>
@@ -74,7 +76,7 @@ const ProjectCarousel = () => {
         </Carousel.Item>
         <Carousel.Item>
           <LinkContainer to="/projects/flappy-bird">
-            <div style={imgWrapperStyle}>
+            <div style={imgWrapper}>
               <img src="images/FlapPy-bird.png" style={imgStyle} />
             </div>
           </LinkContainer>
@@ -88,7 +90,7 @@ const ProjectCarousel = () => {
         </Carousel.Item>
         <Carousel.Item>
           <LinkContainer to="/projects/chip-8-emulator">
-            <div style={imgWrapperStyle}>
+            <div style={imgWrapper}>
               <img src="images/Chip8.png" style={imgStyle} />
             </div>
           </LinkContainer>
