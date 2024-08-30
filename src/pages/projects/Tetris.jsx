@@ -91,23 +91,13 @@ const ProjectTetris = () => {
         <Card.Text>
           This is the version of Tetris that I made in JavaScript. This was one
           of the first and only things that I made with pure JavaScript and a
-          canvas and as a result, it is quite awful. TetrisJS does feature the
-          ability to hold pieces, a leveling system and scoring system, but it
-          is something I never got around to or felt like polishing.
-        </Card.Text>
-        <Card.Text>
-          It has this weird bug where all of the pieces currently on the field
-          will change to the color of the piece that most recently fell. It's
-          probably an easy fix, but I'm too lazy to figure it out.
+          canvas. TetrisJS does feature the ability to hold pieces, a leveling
+          system and scoring system, but it is something I never got around to
+          polishing.
         </Card.Text>
         <div style={{ maxWidth: "600px", margin: "auto" }}>
           <Video src={tetrijsVideo} />
         </div>
-        <Card.Text>
-          <strong>TODO:</strong> Get this working in browser (maybe after fixing
-          the stupid bug), I am too mentally fatigued to figure this out at the
-          time of writing this.
-        </Card.Text>
       </>
     );
   };

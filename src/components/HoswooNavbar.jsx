@@ -30,9 +30,11 @@ const HoswooNavbar = () => {
             <LinkContainer to="/projects/chip-8-emulator">
               <NavDropdown.Item>CHIP-8 Emulator</NavDropdown.Item>
             </LinkContainer>
+            {/*
             <LinkContainer to="/projects/shermie-invaders">
               <NavDropdown.Item>Shermie Invaders</NavDropdown.Item>
             </LinkContainer>
+            */}
           </NavDropdown>
           <ThemeButton />
         </Nav>
