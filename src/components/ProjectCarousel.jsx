@@ -47,6 +47,20 @@ const ProjectCarousel = () => {
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
+          <LinkContainer to="/projects/shermie-invaders">
+            <div style={imgWrapper}>
+              <img src="images/ShermieInvaders.png" style={imgStyle} />
+            </div>
+          </LinkContainer>
+          <Carousel.Caption style={bannerStyle}>
+            <h3>Shermie Invaders</h3>
+            <p>
+              Shooter game based on Space Invaders, made in JavaScript using the
+              Phaser game engine. This was my senior final project.
+            </p>
+          </Carousel.Caption>
+        </Carousel.Item>
+        <Carousel.Item>
           <LinkContainer to="/projects/tetris">
             <div style={imgWrapper}>
               <img src="images/TetriPy.png" style={imgStyle} />
