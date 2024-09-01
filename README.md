@@ -2,7 +2,7 @@
 
 ### TODO
 
-- [ ] Polish carousel
+- [X] Polish carousel
 - [ ] Add about me page
 - [ ] Add obfuscated resume
 - [ ] Add Shermie Invaders build to a project page
