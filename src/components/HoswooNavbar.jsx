@@ -18,6 +18,9 @@ const HoswooNavbar = () => {
             <LinkContainer to="/projects/path-finder">
               <NavDropdown.Item>SDL2 Path Finder</NavDropdown.Item>
             </LinkContainer>
+            <LinkContainer to="/projects/shermie-invaders">
+              <NavDropdown.Item>Shermie Invaders</NavDropdown.Item>
+            </LinkContainer>
             <LinkContainer to="/projects/tetris">
               <NavDropdown.Item>Tetris</NavDropdown.Item>
             </LinkContainer>
@@ -30,14 +33,6 @@ const HoswooNavbar = () => {
             <LinkContainer to="/projects/chip-8-emulator">
               <NavDropdown.Item>CHIP-8 Emulator</NavDropdown.Item>
             </LinkContainer>
-            <LinkContainer to="/projects/shermie-invaders">
-              <NavDropdown.Item>Shermie Invaders</NavDropdown.Item>
-            </LinkContainer>
-            {/* // Da Game
-            <NavDropdown.Item href="/hoswoo-website/shermie-invaders/index.html">
-              Shermie Invaders
-            </NavDropdown.Item>
-            */}
           </NavDropdown>
           <ThemeButton />
         </Nav>
