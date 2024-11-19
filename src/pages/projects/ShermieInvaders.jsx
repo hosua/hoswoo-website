@@ -20,13 +20,7 @@ const ProjectShermieInvaders = () => {
         </Card.Text>
         <Video src={shermieInvadersVideo} />
         <Card.Text>
-          Unfortunately, the source code cannot be provided since I do not own
-          the rights to the source code, though if that is ever changed, the
-          link to the repository will be added to this page.
-        </Card.Text>
-        <Card.Text>
-          However, you can click the button below to play the game in your
-          browser!
+          You can click the button below to play the game in your browser!
         </Card.Text>
         <a href="/hoswoo-website/shermie-invaders/index.html">
           <Button className="my-3">Play Shermie Invaders</Button>
@@ -58,7 +52,13 @@ const ProjectShermieInvaders = () => {
       </>
     );
   };
-  return <ProjectPage title="Shermie Invaders" body={body()} />;
+  return (
+    <ProjectPage
+      title="Shermie Invaders"
+      body={body()}
+      srcUrl={"https://github.com/navitenddev/shermie-invaders"}
+    />
+  );
 };
 
 export default ProjectShermieInvaders;
