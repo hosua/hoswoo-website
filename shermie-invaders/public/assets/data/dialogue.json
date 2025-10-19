@@ -1,0 +1,248 @@
+{
+  "prof_oak_intro_speech": {
+    "lines": [
+      "Hello there! Welcome to the world of Pokémon!",
+      "My name is Oak! People call me the Pokémon Prof!",
+      "This world is inhabited by creatures called Pokémon!",
+      "For some people, Pokémon are pets. Other use them for fights.",
+      "Myself... I study Pokémon as a profession.",
+      "First, what is your name?",
+      "Right! So your name is PLAYER",
+      "This is my grandson. He's been your rival since you were a baby.",
+      "...Erm, what is his name again?",
+      "That's right! I remember now! His name is RIVAL.",
+      "Your very own Pokémon legend is about to unfold!",
+      "A world of dreams and adventures with Pokémon awaits! Let's go!"
+    ]
+  },
+  "test1": {
+    "lines": [
+      "Hello, this is the first thing I'm gonna say.",
+      "And then I'm gonna say this too. Oh boy isn't this exciting",
+      "Then by some freak of a miracle, I am ALSO going to say this too. Isn't life wild?",
+      "Okay im done bye"
+    ]
+  },
+  "test2": {
+    "lines": ["Yo what's goodie", "Okay cool beans", "buh bye dood"]
+  },
+  "win1": {
+    "lines": ["AYOOOOOO, SHERMIE IN DA HOUSE"]
+  },
+  "lose1": {
+    "lines": ["We may have lost the battle...", "but not the war..."]
+  },
+  "shermie_hurt": {
+    "lines": ["ouch! that hurt!"]
+  },
+  "shermie_shieldhurt": {
+    "lines": ["Hey, watch it! They're breaking my shield!"]
+  },
+  "shermie_shieldgone": {
+    "lines": ["Ah! Blasted right through the shield!"]
+  },
+  "shermie_start": {
+    "lines": [
+      "Player, we're being invaded by malware!",
+      "Help me take them out so we don't lose our jobs!"
+    ]
+  },
+  "shermie_dead": {
+    "lines": ["NoooooOOOOoOOOoOOOO!!!"]
+  },
+  "shermie_boss": {
+    "lines": ["Why do I hear boss music?"]
+  },
+  "sandbox_tips": {
+    "lines": [
+      "Welcome to Sandbox Mode!",
+      "Click the buttons on the top right to spawn enemies!"
+    ]
+  },
+  "score_invalidated": {
+    "lines": [
+      "Hey! Your score was invalidated. To be eligible to set a highscore, cheats must be disabled and you must either start the game at level 1, or start any level with no money."
+    ]
+  },
+  "level1": {
+    "lines": [
+      "Hey there, I'm Shermie from Navitend! We've got a situation on our hands.",
+      "A wave of malware is attempting to breach our client's network defenses.",
+      "As our new security specialist, we need your skills to identify and neutralize these threats.",
+      "Let's dive in and show these malicious invaders who's in charge!",
+      "Blast those corrupted files into oblivion. The integrity of our network depends on you."
+    ]
+  },
+  "level2": {
+    "lines": [
+      "Wow, impressive work on that first level! Your debugging skills are razor-sharp.",
+      "Just when we thought we could catch our breath, the malware is evolving.",
+      "These sneaky invaders are using polymorphic code to slip past our defenses.",
+      "But I know you've got the skills to outsmart them and keep our network secure.",
+      "Time to show these threats what our cutting-edge anti-malware strategies can do!"
+    ]
+  },
+  "level3": {
+    "lines": [
+      "You're on fire! Your network monitoring skills are second to none.",
+      "Looks like we've caught the attention of a botnet. They're trying to flood our network with a DDoS attack.",
+      "But with you at the helm, I have no doubt we can weather this storm and keep our systems stable.",
+      "Our clients are counting on us for uninterrupted service. Your sys-admin expertise is our secret weapon.",
+      "Let's optimize our network configuration and show this botnet what real uptime looks like!"
+    ]
+  },
+  "level4": {
+    "lines": [
+      "Incredible work in level three! Your defense strategies are top-notch.",
+      "Looks like our adversaries have a new trick up their sleeve - a zero-day exploit.",
+      "We need your keen eye for malware analysis and threat hunting to unravel this mystery.",
+      "The integrity of our network hangs in the balance, but I have full faith in your abilities.",
+      "Navitend prides itself on delivering the highest standards of security. With you on the case, I know we're in good hands.",
+      "Ready to investigate this threat and fortify our SIEM rules? Let's get to work!"
+    ]
+  },
+  "level5": {
+    "lines": [
+      "Your threat hunting skills are in a league of their own.",
+      "Just when we thought we had a handle on things, a polymorphic virus enters the fray.",
+      "This slippery code is constantly shapeshifting to evade our detection methods.",
+      "To stay one step ahead, we need you to work your magic and develop an advanced AI model.",
+      "Your data science prowess is the key to locking down our defenses and protecting our clients.",
+      "Ready to train this cutting-edge AI and take our security to the next level? Let's push the boundaries of what's possible!"
+    ]
+  },
+  "level6": {
+    "lines": [
+      "I'm in awe of your AI-powered defenses! They're an absolute game-changer.",
+      "But the threats keep coming. Now we're facing a highly targeted spear-phishing campaign.",
+      "These crafty attackers are after our employee login credentials.",
+      "To thwart their plans, we need you to fortify our email filters and implement ironclad multi-factor authentication.",
+      "Your social engineering prevention skills and access management expertise are vital to keeping our team's identities secure.",
+      "Ready to send these phishing attempts packing and lock down our authentication protocols? Let's do this!"
+    ]
+  },
+  "level7": {
+    "lines": [
+      "Your security measures have been nothing short of instrumental in keeping us safe.",
+      "As we gear up for the final push, the cyber threats are reaching a fever pitch.",
+      "But with your IT security expertise in our corner, I have unwavering confidence in our success.",
+      "Your tireless dedication and unparalleled skills have made all the difference.",
+      "As we stand united against these relentless digital foes, know that your efforts are the backbone of our defense.",
+      "Together, we'll vanquish these cyber threats and ensure Navitend remains a bastion of security. Charge!"
+    ]
+  },
+  "techtip1": {
+    "lines": [
+      "You never know where hackers may lurk, so get antivirus software and make sure it works."
+    ]
+  },
+  "techtip2": {
+    "lines": [
+      "If you're looking for a strong password, you won't find it in the dictionary."
+    ]
+  },
+  "techtip3": {
+    "lines": [
+      "What's the key to creating a strong password? You won't find that in the dictionary."
+    ]
+  },
+  "techtip4": {
+    "lines": [
+      "Since you never know where hackers may lurk, make sure your antivirus and antimalware programs work."
+    ]
+  },
+  "techtip5": {
+    "lines": [
+      "If you see an email with a message that seems too good to be true, chances are it is. Delete it immediately."
+    ]
+  },
+  "techtip6": {
+    "lines": [
+      "When setting passwords for your accounts or devices, make sure they contain a random mix of letters, numbers, and special characters, since passwords with words or phrases in any language are easier for hackers to crack."
+    ]
+  },
+  "techtip7": {
+    "lines": [
+      "Reusing your password across multiple accounts opens doors for hackers to steal your data, so to keep your data from being compromised, make sure all your accounts' passwords are customized."
+    ]
+  },
+  "techtip8": {
+    "lines": [
+      "Use 2FA/MFA as often as possible, because the more authentication factors you have, the greater protection you have against cyberattacks even if one factor is compromised."
+    ]
+  },
+  "techtip9": {
+    "lines": [
+      "To keep your data from being lost or stolen in a security breach, you always need a little DLP."
+    ]
+  },
+  "techtip10": {
+    "lines": [
+      "Preventing your data from falling into malicious hands is not difficult. It is easy as DLP."
+    ]
+  },
+  "techtip11": {
+    "lines": [
+      "Malware exploits your software's vulnerabilities, so don't wait until it's too late to install the required updates."
+    ]
+  },
+  "techtip12": {
+    "lines": [
+      "Software vulnerabilities can leave gaping holes in your overall cybersecurity, so patch up your software as early and as often as possible."
+    ]
+  },
+  "techtip13": {
+    "lines": [
+      "Older computers are more vulnerable to threats like phishing, ransomware, and spyware attacks. Therefore, once your devices can't support essential updates anymore, replace them with newer models."
+    ]
+  },
+  "techtip14": {
+    "lines": [
+      "Whether you are working from home, in the office, or on the road, all signs point to VPN. When you use a VPN - or virtual private network, it encrypts your data to keep it from falling into malicious hands."
+    ]
+  },
+  "techtip15": {
+    "lines": [
+      "Use a VPN as often as you can, because it keeps your data from falling into malicious hands."
+    ]
+  },
+  "techtip16": {
+    "lines": [
+      "Automatic updates are all fine and dandy, but sometimes updating software yourself comes in handy. If you do not update your printers, router firmware, and scanners, they will be prone to harmful",
+      "cyberattacks. This shows that you must update your software as often as possible."
+    ]
+  },
+  "techtip17": {
+    "lines": [
+      "If you see an email where something looks off, take a closer look at the sender, links, attachment, and message, so you can SLAM the door shut on harmful phishing attacks."
+    ]
+  },
+  "techtip18": {
+    "lines": [
+      "The average data breach resulting from cloud misconfigurations costs $4 million, so to save money - and headaches - make sure your cloud computing platforms are configured properly."
+    ]
+  },
+  "techtip19": {
+    "lines": [
+      "To keep malware from infiltrating your computers, threat detection tools like behavioral analytics, ransomware detection, and vulnerability scanning are undeniably essential."
+    ]
+  },
+  "techtip20": {
+    "lines": [
+      "Don't be blind to cybercrime - use threat detection tools for greater visibility into your network activity, so you can stop data breaches and other cyberattacks in their tracks."
+    ]
+  },
+  "techtip21": {
+    "lines": [
+      "If you find a link that looks suspicious, don't click it, because chances are it is malicious."
+    ]
+  },
+  "techtip22": {
+    "lines": [
+      "Malware exploits software vulnerabilities. To avoid it, regularly update your software and applications to patch vulnerabilities."
+    ]
+  },
+  "techtips": {
+    "quantity": 22
+  }
+}

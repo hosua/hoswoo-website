@@ -1,9 +1,9 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/png" href="./favicon.png" />
-    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="black" />
     <link rel="manifest" href="./manifest.json" />
     <link rel="icon" href="img/icon-192.png" sizes="192x192" />
@@ -11,16 +11,16 @@
     <link rel="icon" href="img/icon-512.png" sizes="512x512" />
     <link rel="stylesheet" href="./style.css" />
     <title>Shermie Invaders</title>
-    <script defer="defer" src="./bundle.min.js"></script></head
-  ><style>
-    body {
-      overflow: hidden; /* Disables scrolling */
+  </head>
+  <style type="text/css">
+        body {
+        overflow: hidden; /* Disables scrolling */
     }
     @media (max-width: 768px) {
-      /* Specific styles for mobile devices */
-      body {
-        overflow: hidden; /* Ensures no scrolling on mobile */
-      }
+        /* Specific styles for mobile devices */
+        body {
+            overflow: hidden; /* Ensures no scrolling on mobile */
+        }
     }
 
     .modal {
@@ -67,6 +67,7 @@
       color: #cc0000;
     }
   </style>
+
   <body>
     <div id="app" , class="unselectable">
       <div id="game-container" class="unselectable"></div>
@@ -74,16 +75,16 @@
     <script>
       if ("serviceWorker" in navigator) {
         window.addEventListener("load", function () {
-          navigator.serviceWorker.register("/sw.js", { scope: "/" }).then(
+          navigator.serviceWorker.register("./sw.js", { scope: "./" }).then(
             function (registration) {
               console.log(
                 "ServiceWorker registration successful with scope: ",
-                registration.scope,
+                registration.scope
               );
             },
             function (err) {
               console.log("ServiceWorker registration failed: ", err);
-            },
+            }
           );
         });
       }
