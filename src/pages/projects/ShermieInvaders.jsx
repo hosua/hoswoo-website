@@ -18,7 +18,7 @@ const ProjectShermieInvaders = () => {
         </Card.Text>
         <div className="game-container mb-4">
           <iframe
-            src="/hoswoo-website/shermie-invaders/dist/index.html"
+            src="/hoswoo-website/shermie-invaders/index.html"
             width="100%"
             height="800"
             frameBorder="0"
