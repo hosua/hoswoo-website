@@ -35,29 +35,27 @@ const ProjectShermieInvaders = () => {
           Space to shoot, P or ESC to pause, and M to mute.
         </Card.Text>
         <hr />
-        <Card.Text>
-          <h2>Features</h2>
-          <hr />
-          <ul>
-            <li> 150+ levels with difficulty scaling </li>
-            <li>
-              Upgradable stats, such as a shield, spread shot, and piercing shot
-              that the player can purchase from drops at the end of each level
-            </li>
-            <li> 3 unique and challenging bosses </li>
-            <li>
-              A very challenging boss rush where you are tasked to fight all 3
-              bosses with only one life
-            </li>
-            <li> Local high score saving </li>
-            <li> In-game dialogue and story </li>
-            <li>
-              Cheat codes for debugging and testing (type navitend in the main
-              menu to enable them)
-            </li>
-            <li> Mobile PWA support </li>
-          </ul>
-        </Card.Text>
+        <h2>Features</h2>
+        <hr />
+        <ul>
+          <li> 150+ levels with difficulty scaling </li>
+          <li>
+            Upgradable stats, such as a shield, spread shot, and piercing shot
+            that the player can purchase from drops at the end of each level
+          </li>
+          <li> 3 unique and challenging bosses </li>
+          <li>
+            A very challenging boss rush where you are tasked to fight all 3
+            bosses with only one life
+          </li>
+          <li> Local high score saving </li>
+          <li> In-game dialogue and story </li>
+          <li>
+            Cheat codes for debugging and testing (type navitend in the main
+            menu to enable them)
+          </li>
+          <li> Mobile PWA support </li>
+        </ul>
       </>
     );
   };
