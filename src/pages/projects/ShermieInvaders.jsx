@@ -20,7 +20,7 @@ const ProjectShermieInvaders = () => {
           <iframe
             src="/hoswoo-website/shermie-invaders/dist/index.html"
             width="100%"
-            height="900"
+            height="800"
             frameBorder="0"
             title="Shermie Invaders Game"
             style={{
