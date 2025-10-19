@@ -10,7 +10,7 @@
     "predev": "npm run update-submodules && npm run build-shermie",
     "dev": "vite",
     "prebuild": "npm run update-submodules && npm run build-shermie",
-    "build": "vite build",
+    "build": "vite build && echo '' > dist/.nojekyll",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
     "lint": "eslint .",

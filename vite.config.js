@@ -17,4 +17,21 @@ export default defineConfig({
       "@pages": "/src/pages",
     },
   },
+  publicDir: "public",
+  build: {
+    outDir: "dist",
+    assetsDir: "assets",
+    copyPublicDir: true,
+    rollupOptions: {
+      output: {
+        assetFileNames: (assetInfo) => {
+          // Ensure .nojekyll file is copied as-is
+          if (assetInfo.name === '.nojekyll') {
+            return '.nojekyll';
+          }
+          return 'assets/[name]-[hash][extname]';
+        }
+      }
+    }
+  },
 });
