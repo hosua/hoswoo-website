@@ -35,6 +35,11 @@ jobs:
     - name: Build website
       run: npm run build
 
+    - name: Copy shermie-invaders built files
+      run: |
+        cp -r dist/shermie-invaders/dist/* dist/shermie-invaders/
+        rm -rf dist/shermie-invaders/dist
+
     - name: Add .nojekyll file
       run: touch dist/.nojekyll
 
