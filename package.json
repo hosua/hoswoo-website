@@ -5,10 +5,14 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "update-submodules": "git submodule update --remote --merge",
+    "build-shermie": "cd public/shermie-invaders && npm install && npm run build",
+    "predev": "npm run update-submodules && npm run build-shermie",
+    "dev": "vite",
+    "prebuild": "npm run update-submodules && npm run build-shermie",
+    "build": "vite build",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
-    "dev": "vite",
-    "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview"
   },

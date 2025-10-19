@@ -1,5 +1,3 @@
-import Video from "@components/Video";
-import shermieInvadersVideo from "/videos/shermie-invaders.mp4";
 import { Card, Button } from "react-bootstrap";
 import ProjectPage from "@components/ProjectPage";
 
@@ -18,13 +16,24 @@ const ProjectShermieInvaders = () => {
           a reusable fashion, designing the enemy behavior, designing the
           bosses, and implementing the challenge mode.
         </Card.Text>
-        <Video src={shermieInvadersVideo} />
+        <div className="game-container mb-4">
+          <iframe
+            src="/hoswoo-website/shermie-invaders/dist/index.html"
+            width="100%"
+            height="900"
+            frameBorder="0"
+            title="Shermie Invaders Game"
+            style={{
+              border: "2px solid #333",
+              borderRadius: "8px",
+              boxShadow: "0 4px 8px rgba(0,0,0,0.3)",
+            }}
+          />
+        </div>
         <Card.Text>
-          You can click the button below to play the game in your browser!
+          Play the game directly above! Use A/D or arrow keys to move, W or
+          Space to shoot, P or ESC to pause, and M to mute.
         </Card.Text>
-        <a href="/hoswoo-website/shermie-invaders/index.html">
-          <Button className="my-3">Play Shermie Invaders</Button>
-        </a>
         <hr />
         <Card.Text>
           <h2>Features</h2>

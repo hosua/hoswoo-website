@@ -7,8 +7,6 @@ import ProjectFlappyBird from "@pages/projects/FlappyBird";
 import ProjectShermieInvaders from "@pages/projects/ShermieInvaders";
 import ProjectSnakePlusPlus from "@pages/projects/SnakePlusPlus";
 
-import ShermieInvaders from "@pages/ShermieInvaders";
-
 const HoswooRoutes = () => {
   return (
     <Routes>
@@ -28,7 +26,6 @@ const HoswooRoutes = () => {
         path="/projects/snake-plus-plus"
         element={<ProjectSnakePlusPlus />}
       />
-      <Route path="/shermie-invaders" element={<ShermieInvaders />} />
     </Routes>
   );
 };

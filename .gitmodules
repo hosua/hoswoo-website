@@ -1,0 +1,3 @@
+[submodule "public/shermie-invaders"]
+	path = public/shermie-invaders
+	url = https://github.com/hosua/shermie-invaders.git
